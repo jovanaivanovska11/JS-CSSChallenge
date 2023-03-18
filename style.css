@@ -1,0 +1,211 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.cards-container {
+    display: grid;
+}
+
+.sidebar {
+    background: #ffffff;
+    margin: 15px;
+    width: 340px;
+}
+
+.preview {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.layout-placeholder {
+    color: #464b5b;
+    font-size: 18px;
+}
+
+.accordion {
+    background: #e6ebff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.accordion-title {
+    color: #0033ff;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #d6dae4;
+    border-radius: 3px;
+    padding: 6px 12px;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.radio-select {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: auto;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    grid-column: span 1;
+}
+
+.profile-container {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+}
+
+.main-img {
+    width: 350px;
+    padding-left: 25px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.date {
+    margin-left: 110px;
+}
+.card p {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.card h6{
+    margin-top: -50px;
+}
+
+.instagram-logo{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.likes {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.heart {
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.like-count {
+    display: inline-block;
+}
+
+.buttonToggle {
+    background-image: url("icons/heart-icon.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.buttonToggle.active {
+    background-image: url("icons/heart-red-icon.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.img-heart {
+    width: 20px;
+    height: 20px;
+}
+
+.likes-form {
+    display: flex;
+}
+
+.heart.active {
+    background-image: url('heart-red-icon.png');
+}
+
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.label .card {
+    background-color: black;
+    color: white;
+}
+
+
+
+
